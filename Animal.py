@@ -16,6 +16,8 @@ class Animal:
                   .format(class_name=self.__class__.__name__, weight=self.weight, bark=self.bark()))
 
     def hurry(self):
+        if(self.weight <= self.dead_weight):
+            return
         self.weight -= self.dh
 
     def isFat(self):
