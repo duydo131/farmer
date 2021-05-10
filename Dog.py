@@ -12,6 +12,3 @@ class Dog(Animal):
 
     def bark(self):
         return "meow meow meow"
-
-    def hurry(self):
-        self.weight -= self.dh
